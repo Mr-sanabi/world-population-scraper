@@ -1,7 +1,7 @@
 import csv, requests
 from bs4 import BeautifulSoup
 
-FILENAME = "world-population111.csv"
+FILENAME = "world-population.csv"
 
 data = [["Name","Population","Yearly_Change","Net_Change","Density","Land_Area","Median_Age","Urban_Pop"]]
 url = f'https://www.worldometers.info/world-population/population-by-country/'
